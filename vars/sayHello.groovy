@@ -1,4 +1,4 @@
 
-def call(String NAME){
+def call(String NAME = "ITI NOW"){
     sh "echo \"Hello ${NAME}\" "
 }
