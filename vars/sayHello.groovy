@@ -1,9 +1,4 @@
 
-def call(name = "ITI NOW") {
-    echo ">>> DEBUG: Received name = ${name}"
-    echo "sayHello: Hello ${name}"
+def call( String NAME = "ITI NOW"){
+    sh "echo \"Hello ${NAME}\" "
 }
-
-// def call( NAME = "ITI NOW"){
-//     sh "echo \"Hello ${NAME}\" "
-// }
